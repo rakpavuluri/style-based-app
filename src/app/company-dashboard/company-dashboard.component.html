@@ -1,0 +1,7 @@
+<div *ngIf="selectedCompany">
+    This is {{selectedCompany.username}}
+    <br>
+    <button [ngStyle]="{'color': selectedCompany.button.color}">
+        Login
+    </button>
+</div>
